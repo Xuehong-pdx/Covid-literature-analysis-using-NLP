@@ -3,7 +3,7 @@
 
 Pubmed is a free search engine accessing primarily the MEDLINE database of references and abstracts on life sciences and biomedical topics.  
 A simple search for 'covid-19' on pubmed resulted in 156,871 citations, an impossible number of papers for anyone to seep through.  
-I set out to see whether I can get some kind of understanding of the literature using natural language processing.
+I set out to see whether I can get some kind of understanding of the trend in literature using natural language processing.
 
 The data were downloaded from pubmed after search for covid-19
 
