@@ -5,11 +5,11 @@ Pubmed is a free search engine accessing primarily the MEDLINE database of refer
 A simple search for 'covid-19' on pubmed resulted in 156,871 citations, an impossible number of papers for anyone to seep through.  
 I set out to see whether I can get some kind of understanding of the literature using natural language processing.
 
-The data are downloaded from pubmed after search for covid-19
+The data were downloaded from pubmed after search for covid-19
 
 Approaches:
 1. Data Cleaning.  records with null values, abstracts ith length less than 50 words (not true abstracts after visual inspection) are removed
-2. stop words are removed
+2. stop words were removed
 3. Lemmatization was performed
 4. Most frequent used words are ranked
 5. WordCloud are used for better visualization of most used owrds
