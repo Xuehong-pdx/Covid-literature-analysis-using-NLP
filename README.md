@@ -8,16 +8,16 @@ I set out to see whether I can get some kind of understanding of the trend in li
 The data were downloaded from pubmed after search for covid-19
 
 <b> Libraries used </b>
-nltk
-pandas
-numpy
-matplotlib
-datetime
-re
-random
-pickle
-wordcloud
-sklearn
+-nltk
+-pandas
+-numpy
+-matplotlib
+-datetime
+-re
+-random
+-pickle
+-wordcloud
+-sklearn
 
 <b> Approaches: </b>
 1. Cleaning data .  Records with null values, abstracts ith length less than 50 words (not true abstracts after visual inspection) are removed
