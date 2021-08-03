@@ -31,7 +31,7 @@ The data were downloaded from pubmed after search for covid-19
 
 <b>Summary</b>
 
-1. In this study, I imported csv fiels from pubmed that contains the dumped data for 2019-2020.  Three types of analysis were performed to get some insight on covid literature.
+1. In the first analysis, I imported csv fiels from pubmed that contains the dumped data for 2019-2020.  Three types of analysis were performed to get some insight on covid literature.
 
 2. The first attempt was to examine the top words in the whole data set to see what insights one might be able to infer from the data.  I found that one can get a sense of what was discussed based on top words.  But, there is limit to get indepth information based on top words.
 
@@ -40,3 +40,4 @@ The data were downloaded from pubmed after search for covid-19
 4. Thirdly, I performed topic modeling using Latent Dirichlet Allocation (LDA) method.  Since the original data sets has eight differnt labels, I first performed the analysis using 8 topics.  Then also tried 15 topics.  Based on the top ten words for the mostly discussed topic, I concluded that 8 topics is sufficient for teasing out the difference in topics.  BAsed on this analysis, it is possible to pick out papers that disccuss certain topics.  
 
 5. Based on the results, WordNet Lemmatizer didn't do a good job removing the stem of some words.
+6. In the second analysis, I downloaded more current data (limited to 10,000 records) from pubmed on covid-19 in a text format.  Theh performed word frquency and topic analysis.
