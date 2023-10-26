@@ -10,12 +10,6 @@ The data were downloaded from pubmed after search for covid-19
 <b> Libraries used </b>
 - nltk
 - pandas
-- numpy
-- matplotlib
-- datetime
-- re
-- random
-- pickle
 - wordcloud
 - sklearn
 
